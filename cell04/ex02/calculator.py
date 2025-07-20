@@ -1,7 +1,6 @@
-# รับค่าตัวเลขตัวแรกจากผู้ใช้ และแปลงเป็นจำนวนเต็ม (int)
-num1 = int(input("Give me the first number: "))
-num2 = int(input("Give me the second number: "))
-print('Thank You')
+num1 = int(input("กรอกตัวเลข: "))
+num2 = int(input("กรอกตัวเลข: "))
+print('ขอบคุณที่กรอกตัวเลขเข้ามา')
 # แสดงผลการบวกของ num1 และ num2
 print(f"{num1} + {num2} = {num1 + num2}")
 

@@ -1,6 +1,11 @@
+#!/usr/bin/env python3
 import sys
 
-if len(sys.argv) != 2: 
+# ไม่รวมชื่อโปรแกรมตัวแรก
+args = sys.argv[1:]
+
+if len(args) < 2:
     print("none")
 else:
-    print("".join(sys.argv[1].lower()))
+    for arg in reversed(args):
+        print(arg)
